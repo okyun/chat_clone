@@ -5,7 +5,7 @@ import com.chat.domain.model.*
 import com.chat.domain.service.ChatService
 import com.chat.persistence.repository.*
 import com.chat.persistence.redis.RedisMessageBroker
-import com.chat.persistence.websocket.WebSocketSessionManager
+import com.chat.persistence.service.WebSocketSessionManager
 import org.slf4j.LoggerFactory
 import org.springframework.cache.annotation.*
 import org.springframework.data.domain.Page
